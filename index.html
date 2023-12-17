@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IMD232 FINAL 임지은 202120358</title>
+    <link
+      href="//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css"
+      rel="stylesheet"
+      type="text/css" />
+    <link rel="stylesheet" href="./style.css" />
+
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.9.0/lib/p5.min.js"></script>
+    <script src="./p5Util.js" defer></script>
+    <script src="./script/Particle.js" defer></script>
+    <script src="./script/sketch.js" defer></script>
+    <style>
+      h2 {
+        font-family: 'Kalnia', serif;
+        text-align: center;
+      }
+      #btn {
+        padding-top: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      #next-button {
+        cursor: pointer;
+        font-family: 'Kalnia', serif;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 0.75rem;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="viewport">
+      <header>
+        <section>
+          <div class="container" id="titleText">
+            <h2>Today, how are you feeling?</h2>
+          </div>
+        </section>
+      </header>
+      <main>
+        <div class="container" id="btn">
+          <button id="next-button" onclick="nextImage()">Next Emotion?</button>
+        </div>
+        <section>
+          <div class="container">
+            <div id="canvas"></div>
+          </div>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>
