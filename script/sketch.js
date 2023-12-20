@@ -1,3 +1,7 @@
+// Original Code from: https://openprocessing.org/sketch/2099653
+// 다음 오픈소스에서 파티클 영감을 받았으며 교수님 피드백 코드와 함께 Next Image, 파티클 배열 생성에 대하여 코드를 참고하였습니다.
+// 챗 gpt를 통해 마우스로 파티클을 밀어내는 힘과 상호작용에 대한 코드 도움을 받았습니다.
+
 let currentImageIndex = 0;
 
 const imgs = [];
